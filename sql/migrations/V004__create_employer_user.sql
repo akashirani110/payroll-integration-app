@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS pineapple_payroll.employer_user (
+	employer_user_id INT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+	first_name VARCHAR(30) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+	last_name VARCHAR(30) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+	position VARCHAR(30) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+	email VARCHAR(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL UNIQUE,
+	salt VARCHAR(100) NOT NULL,
+	hashed_password varchar(2000) NOT NULL,
+	created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+	PRIMARY KEY (employer_user_id)
+);  

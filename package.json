@@ -1,0 +1,43 @@
+{
+  "name": "xero-node-oauth2-ts-starter",
+  "version": "1.0.0",
+  "description": "a starter project using node, express, typescript, xero-node, and oauth 2.0",
+  "main": "build/app.js",
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpile-only ./app/app.ts",
+    "prod": "tsc && node ./build/app.js"
+  },
+  "author": "Xero Platform Team",
+  "license": "MIT",
+  "dependencies": {
+    "@types/morgan": "^1.9.1",
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "es6-promise": "^4.2.8",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "express-session": "^1.17.0",
+    "express-validator": "^6.6.1",
+    "isomorphic-fetch": "^2.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "md5": "^2.3.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^1.7.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "xero-node": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/express-session": "^1.15.16",
+    "@types/node": "^14.0.27",
+    "openid-client": "^3.14.0",
+    "ts-lint": "^4.5.1",
+    "ts-node-dev": "^1.0.0-pre.56",
+    "typescript": "^3.7.5"
+  }
+}
