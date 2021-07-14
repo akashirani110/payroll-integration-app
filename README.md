@@ -103,7 +103,7 @@ The enslaved (team) members responsible for the delivery of the project are as f
 
 * Atirach Intaraudom (s3750202) - @atirudom
 * Nandan K N (s751674) - @nandan
-* Akash [fill your name]
+* Akash Hirani (s3758654) - @akashirani110
 * Zhaofend Guo [fill your name]
 
 
